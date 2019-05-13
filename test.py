@@ -26,6 +26,7 @@ def record():
     lose = 0
 
     for games in a:
+      
         #print(" ".join(games.text.split()))
         location = len(games.text.split())
 
@@ -71,9 +72,45 @@ def total():
     print(str(over) + " - " + str(under))
 
 
+def streaks_total():
+    over = 0
+    under = 0
+    
+    for games in a.reverse():
+        #print(type(games))
+      
+        #print(" ".join(games.text.split()))
+        location = len(games.text.split())
+
+        if (location == 16):  # away
+            result = games.text.split()[13]
+            if (result == 'O'):
+                over += 1
+                under = 0
+            if (result == 'U'):
+                under += 1
+                over = 0
+
+        if (location == 15):  # home
+            result = games.text.split()[12]
+            if (result == 'O'):
+                over += 1
+                under = 0
+            if (result == 'U'):
+                under += 1
+                over = 0
+    
+    if over > 0 :
+      print("Over by " + str(over))
+    else:
+      print("Under by " + str(under))
+
+
+
 # def team_history():
 
 print(tabulate([['24', 'ARI', '5-4'], ['25-7', 'SF', '1-0'],
                 ['Maria', 90, 'Lose']], headers=['Date', 'VS', 'Score']))
 record()
 total()
+streaks_total()

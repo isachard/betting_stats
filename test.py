@@ -9,24 +9,21 @@ result = requests.get(url)
 content = result.content
 soup = BeautifulSoup(content, features="html.parser")
 
-a = soup.find_all('tr')
-
-# print(a[1])
-# print(a[7])
-
-
-# print(len(a))
+matches = soup.find_all('tr')
 
 team_name = soup.find('h1').text
+
 print(team_name)
 #print(" ".join(team_name.split()))
-
+def team_name():
+  print(team_name)
 
 def record():
+    """Compute the current season record for the team (Win/Loss)"""
     win = 0
     lose = 0
 
-    for games in a:
+    for games in matches:
         #print(" ".join(games.text.split()))
         location = len(games.text.split())
 
@@ -48,10 +45,11 @@ def record():
 
 
 def total():
+    """Compute the current season totals for the team (Over/Under)"""
     over = 0
     under = 0
 
-    for games in a:
+    for games in matches:
         #print(" ".join(games.text.split()))
         location = len(games.text.split())
 
@@ -68,14 +66,18 @@ def total():
                 over += 1
             if (result == 'U'):
                 under += 1
+
+
+
     print("Totals:")
     print(str(over) + " - " + str(under))
 
 
 def streaks_totals():
+    """Compute the latest streak of totals)"""
     over = 0
     under = 0
-    for games in a :
+    for games in matches :
         
         location = len(games.text.split())
 
@@ -101,10 +103,11 @@ def streaks_totals():
 
 
 def streaks_ml():
+    """Compute the latest streak of win/loss"""
     win = 0
     lose = 0
     
-    for games in a :
+    for games in matches :
         
         location = len(games.text.split())
 
@@ -136,6 +139,7 @@ def streaks_ml():
 def tabulation():
     print(tabulate([['24', 'ARI', '5-4'], ['25-7', 'SF', '1-0'],
                 ['Maria', 90, 'Lose']], headers=['Date', 'VS', 'Score']))
+team_name()
 record()
 total()
 streaks_totals()

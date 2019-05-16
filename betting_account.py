@@ -41,14 +41,14 @@ def print_accounts():
     print("Stoic:      " + str("%.2f" % d) + "%\n")
 
 
-savings = 400
-bookmaker = 460
+savings = 400 
+bookmaker = 460 + 400
 betonline = 300
 stoic = 440
-uSavings = 543
-uBookmaker = 305.17
-uBetonline = 444.06
-uStoic = 493.25
+uSavings = 220 + 440
+uBookmaker = 243 + 400
+uBetonline = 400
+uStoic = 496
 start = savings + bookmaker + betonline + stoic
 now = uSavings + uBookmaker + uBetonline + uStoic
 print("\nBetting System Stats:")

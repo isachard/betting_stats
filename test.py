@@ -17,6 +17,7 @@ team = soup.find('h1').text
 def team_name():
     print()
     print(" ".join(team.split()))
+    print()
 
 
 def record():
@@ -44,6 +45,11 @@ def record():
     print("Record:")
     print(str(win) + " - " + str(lose))
 
+    total = win + lose
+    print(str("%.2f" % ((win/total)*100)) + "% - " +
+          str(("%.2f" % ((lose/total)*100))) + " %")
+    print()
+
 
 def total():
     """Compute the current season totals for the team (Over/Under)"""
@@ -70,6 +76,11 @@ def total():
 
     print("Totals:")
     print(str(over) + " - " + str(under))
+
+    total = over + under
+    print(str("%.2f" % ((over/total)*100)) + "% - " +
+          str(("%.2f" % ((under/total)*100))) + " %")
+    print()
 
 
 def streaks_totals():
@@ -162,7 +173,7 @@ def tabulation():
 
 
 def history_last_five():
-    print("Last_Five")
+    print()
 
 
 team_name()

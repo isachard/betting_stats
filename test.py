@@ -3,8 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 from tabulate import tabulate
 
-
-url = "https://www.covers.com/pageLoader/pageLoader.aspx?page=/data/mlb/teams/pastresults/2019/team2959.html"
+teamdb = 55
+urlM = "https://www.covers.com/pageLoader/pageLoader.aspx?page=/data/mlb/teams/pastresults/2019/team29"
+url = "https://www.covers.com/pageLoader/pageLoader.aspx?page=/data/mlb/teams/pastresults/2019/team2955.html"
 result = requests.get(url)
 content = result.content
 soup = BeautifulSoup(content, features="html.parser")
@@ -12,6 +13,19 @@ soup = BeautifulSoup(content, features="html.parser")
 matches = soup.find_all('tr')
 
 team = soup.find('h1').text
+
+
+def urlHandler():
+    global urlM
+    for teams in range(30):
+        print(urlM + str(teams+teamdb))
+        result = requests.get(url)
+        content = result.content
+        soup = BeautifulSoup(content, features="html.parser")
+        matches = soup.find_all('tr')
+        team = soup.find('h1').text
+
+        team_name()
 
 
 def team_name():
@@ -176,9 +190,5 @@ def history_last_five():
     print()
 
 
-team_name()
-record()
-total()
-streaks_totals()
-streaks_ml()
+urlHandler()
 print()

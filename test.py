@@ -1,3 +1,4 @@
+
 import requests
 
 from bs4 import BeautifulSoup
@@ -6,35 +7,62 @@ from tabulate import tabulate
 teamdb = 55
 urlM = "https://www.covers.com/pageLoader/pageLoader.aspx?page=/data/mlb/teams/pastresults/2019/team29"
 url = "https://www.covers.com/pageLoader/pageLoader.aspx?page=/data/mlb/teams/pastresults/2019/team2955.html"
-result = requests.get(url)
-content = result.content
-soup = BeautifulSoup(content, features="html.parser")
+#result = requests.get(url)
+#content = result.content
+#soup = BeautifulSoup(content, features="html.parser")
 
-matches = soup.find_all('tr')
+#matches = soup.find_all('tr')
+#team = soup.find('h1').text
 
-team = soup.find('h1').text
+
+def format_url(_url):
+  result = requests.get(_url)
+  content = result.content
+  soup = BeautifulSoup(content, features="html.parser")
+  matches = soup.find_all('tr')
+
+  last_update(matches)
+
+
+  team = soup.find('h1').text
+
+  
+
+  team_name(team)
+  record(matches)
+  total(matches)
+  streaks_ml(matches)
+  streaks_totals(matches)
+
+
+
+def last_update(match):
+
+    print(match[1].text.split()[0])
 
 
 def urlHandler():
     global urlM
     for teams in range(30):
-        print(urlM + str(teams+teamdb))
-        result = requests.get(url)
-        content = result.content
-        soup = BeautifulSoup(content, features="html.parser")
-        matches = soup.find_all('tr')
-        team = soup.find('h1').text
+        teamsURL = urlM + str(teams+teamdb) +".html"
+        format_url(teamsURL)
+        
+        #result = requests.get(url)
+        #content = result.content
+        #soup = BeautifulSoup(content, features="html.parser")
+        #matches = soup.find_all('tr')
+        #team = soup.find('h1').text
 
-        team_name()
+        #team_name()
 
 
-def team_name():
+def team_name(team):
     print()
     print(" ".join(team.split()))
     print()
 
 
-def record():
+def record(matches):
     """Compute the current season record for the team (Win/Loss)"""
     win = 0
     lose = 0
@@ -65,7 +93,7 @@ def record():
     print()
 
 
-def total():
+def total(matches):
     """Compute the current season totals for the team (Over/Under)"""
     over = 0
     under = 0
@@ -97,7 +125,7 @@ def total():
     print()
 
 
-def streaks_totals():
+def streaks_totals(matches):
     """Compute the latest streak of totals)"""
     over = 0
     under = 0
@@ -139,7 +167,7 @@ def streaks_totals():
             break
 
 
-def streaks_ml():
+def streaks_ml(matches):
     """Compute the latest streak of win/loss"""
     win = 0
     loss = 0

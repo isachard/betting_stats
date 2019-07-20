@@ -210,13 +210,16 @@ def streaks_ml(matches):
 
 
 def tabulation():
-    print(tabulate([['24', 'ARI', '5-4'], ['25-7', 'SF', '1-0'],
-                    ['Maria', 90, 'Lose']], headers=['Date', 'VS', 'Score']))
+    print(tabulate([['24', 'ARI', '5-4', '0'], ['25-7', 'SF', '1-0', '\u2713'],
+                    ['Maria', 90, 'Lose', '\u2717']], headers=['Teams', 'Streak: W/L',  'Streak: O/U', 'LastUpdate']))
 
 
 def history_last_five():
     print()
 
 
+tabulation()
+
 urlHandler()
+tabulation()
 print()

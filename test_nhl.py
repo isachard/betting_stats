@@ -46,7 +46,7 @@ def record(matches):
     """Compute the current season record for the team (Win/Loss)"""
     win = 0
     lose = 0
-    print((matches[0].text))
+    print(matches[0].text.split())
 
     
 

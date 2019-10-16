@@ -5,22 +5,36 @@ from tabulate import tabulate
 
 teamdb = 55
 
-url = "http://www.vegasinsider.com/nhl/teams/team-page.cfm/team/wild"
 
 
-def format_url(_url):
+def format_url():
+
+    _url = "http://www.vegasinsider.com/nhl/teams/team-page.cfm/team/wild"
     result = requests.get(_url)
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
-    get_totals_team(soup)
+    return soup
+
+def caller():
+    soup = format_url()
+    lista = get_totals_team(soup)
+    print(lista)
 
 def get_totals_team(soup):
+    over, under, push = 0
 
     matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1 cellTextNorm padLeft"])
     for i in matches:
         i = i.text.strip()
         if (len(i) > 0):
-            print(i)
+            if(i[0] == 'O'):
+                over +=1
+            if(i[0] == 'U'):
+                under +=1
+            if(i[0] == 'P'):
+                push += 1
+
+    return [over,under,push]
 
 def get_streaks_team():
     matches_spread = soup.find_all('td', class_=["viCellBg1 cellBorderL1 cellTextNorm padLeft","viCellBg2 cellBorderL1 cellTextNorm padLeft"])
@@ -30,9 +44,11 @@ def get_streaks_team():
         if (len(i) > 0):
             print(i)
 
-def overall_totals(lista_totals):
-    print(lista_totals)
 
+
+def overall_totals(lista_totals):
+    for i in lista_total:
+        break
 
 def last_update_date(match):
     print()
@@ -54,5 +70,5 @@ def record(matches):
     # print(mat)
 
 
-format_url(url)
+caller()
 print()

@@ -12,16 +12,26 @@ def format_url(_url):
     result = requests.get(_url)
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
+    get_totals_team(soup)
+
+def get_totals_team(soup):
+
     matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1 cellTextNorm padLeft"])
-
     for i in matches:
-        print(i.text.strip())
+        i = i.text.strip()
+        if (len(i) > 0):
+            print(i)
 
-    # first call
-    # last_update_date(matches)
-    #team = soup.find('h1').text
+def get_streaks_team():
+    matches_spread = soup.find_all('td', class_=["viCellBg1 cellBorderL1 cellTextNorm padLeft","viCellBg2 cellBorderL1 cellTextNorm padLeft"])
 
-    # record(matches)
+    for i in matches_spread:
+        i = i.text.strip()
+        if (len(i) > 0):
+            print(i)
+
+def overall_totals(lista_totals):
+    print(lista_totals)
 
 
 def last_update_date(match):

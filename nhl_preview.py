@@ -5,11 +5,15 @@ from tabulate import tabulate
 
 teamdb = 55
 
+def url_loop():
+    file = open("link.txt","r")
+    links = file.readlines()
+    file.close()
+    return links
 
+def format_url(_url):
 
-def format_url():
-
-    _url = "http://www.vegasinsider.com/nhl/teams/team-page.cfm/team/wild"
+    print(_url)
     result = requests.get(_url)
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
@@ -20,8 +24,10 @@ def caller():
     lista = get_totals_team(soup)
     print(lista)
 
-def get_totals_team(soup):
-    over, under, push = 0
+def get_totals_teams(soup):
+    over = 0
+    under = 0
+    push = 0
 
     matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1 cellTextNorm padLeft"])
     for i in matches:
@@ -36,7 +42,7 @@ def get_totals_team(soup):
 
     return [over,under,push]
 
-def get_streaks_team():
+def get_streaks_teams():
     matches_spread = soup.find_all('td', class_=["viCellBg1 cellBorderL1 cellTextNorm padLeft","viCellBg2 cellBorderL1 cellTextNorm padLeft"])
 
     for i in matches_spread:
@@ -70,5 +76,13 @@ def record(matches):
     # print(mat)
 
 
-caller()
-print()
+def main():
+
+    lista_links =  url_loop()
+    for i in lista_links:
+        soup = format_url(i.strip())
+        print(get_totals_teams(soup))
+
+
+main()
+

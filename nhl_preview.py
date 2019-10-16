@@ -5,14 +5,14 @@ from tabulate import tabulate
 
 teamdb = 55
 
-url = "http://www.vegasinsider.com/nhl/teams/team-page.cfm/team/bruins"
+url = "http://www.vegasinsider.com/nhl/teams/team-page.cfm/team/wild"
 
 
 def format_url(_url):
     result = requests.get(_url)
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
-    matches = soup.find_all('td')
+    matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1 cellTextNorm padLeft"])
 
     for i in matches:
         print(i.text.strip())

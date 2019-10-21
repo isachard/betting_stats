@@ -27,10 +27,11 @@ def get_streaks(soup):
     over = 0
     under = 0
     push = 0
-    matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1        cellTextNorm padLeft"])
+    matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1 cellTextNorm padLeft"])
 
-    for i in matches:
-        i = i.text.strip()
+#how to update thsi everytime? different algorithm to pursue
+    for value in range(len(matches)):
+        i = matches[value].text.strip()
         if (len(i) > 0):
 
             if(i[0] == 'O'):
@@ -41,7 +42,15 @@ def get_streaks(soup):
             if(i[0] == 'U'):
                 under+=1
                 populate_over(over)
-                over+=0
+                over = 0
+
+            if(i[0] == 'P'):
+                if (matches[value-1].text.strip()[0] == 'O'):
+                    populate_over(over)
+                    over = 0
+                if (matches[value-1].text.strip()[0] =='U'):
+                    populate_under(under)
+                    under = 0
 
 def populate_over(o):
     global lista_over
@@ -56,6 +65,7 @@ def main():
 
      lista_links =  url_loop()
      for i in lista_links:
+         print(i)
          values =[]
          soup = format_url(i.strip())
          values= get_streaks(soup)

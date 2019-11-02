@@ -35,12 +35,20 @@ def get_streak(soup):
 
     return [win,lose, push]
 
+def percentages_spread(values):
+    total_games = values[0] + values[1]
+    cover_spread = str(round(values[0] / total_games * 100,2))
+    print("Cover : " + cover_spread + "%")
+
+
+
 def main():
     links = url_loop()
     for i in links:
         values =[]
         soup = format_url(i.strip())
         values = get_streak(soup)
+        percentages_spread(values)
         print(values)
         print()
 

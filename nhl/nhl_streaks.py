@@ -33,24 +33,21 @@ def get_streaks(soup):
     for value in range(len(matches)):
         i = matches[value].text.strip()
         if (len(i) > 0):
+            previous = i[0]
 
             if(i[0] == 'O'):
                 over+=1
-                populate_under(under)
+                populate_over(over)
                 under = 0
 
             if(i[0] == 'U'):
                 under+=1
-                populate_over(over)
+                populate_under(under)
                 over = 0
 
             if(i[0] == 'P'):
-                if (matches[value-1].text.strip()[0] == 'O'):
-                    populate_over(over)
-                    over = 0
-                if (matches[value-1].text.strip()[0] =='U'):
-                    populate_under(under)
-                    under = 0
+                over = 0
+                under = 0
 
 def populate_over(o):
     global lista_over
@@ -60,17 +57,37 @@ def populate_under(u):
     global lista_under
     lista_under[u]+=1
 
+def how_many_games():
+    global lista_over
+    global lista_under
+    total = 0
+    total_over = 0
+    total_under = 0
+
+    for i in lista_under.values():
+        total_under = i + total_under
+    for i in lista_over.values():
+        total_over = i + total_over
+    total = total_over + total_under
+    return [total, total_over, total_under]
+
 
 def main():
 
      lista_links =  url_loop()
      for i in lista_links:
-         print(i)
          values =[]
          soup = format_url(i.strip())
          values= get_streaks(soup)
 
+
 main()
+print ("Over Dict:")
 
 print(lista_over)
-print(lista_under)
+print("Under Dict:")
+print(lista_under , end ='\n')
+total = how_many_games()
+print("Total games: " + str(total[0] /2))
+print("Total overs:: " + str(total[1]/total[0]* 100) + "%")
+print("Total unders:: " + str(total[2]/total[0]* 100) + "%")

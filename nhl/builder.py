@@ -1,9 +1,11 @@
 import requests
 
+from datetime import datetime
 from bs4 import BeautifulSoup
 from tabulate import tabulate
+import csv
 
-teamdb = 55
+
 teams_nhl = []
 def url_loop():
     file = open("links.txt","r")
@@ -45,50 +47,29 @@ def get_totals_teams(soup):
 
     return [over,under,push]
 
-def get_streaks_teams():
-    matches_spread = soup.find_all('td', class_=["viCellBg1 cellBorderL1 cellTextNorm padLeft","viCellBg2 cellBorderL1 cellTextNorm padLeft"])
+def csv_writer(values, team):
+    today = datetime.today()
+    today_number = today.day
 
-    for i in matches_spread:
-        i = i.text.strip()
-        if (len(i) > 0):
-            print(i)
+    reader = csv.reader(f)
+    row1 = next(reader)
+    if (today_number != row1 )
 
-def get_last_streaks():
-    matches = soup.find_all('td', class_=["viCellBg1 cellBorderR1 cellTextNorm padLeft","viCellBg2 cellBorderR1        cellTextNorm padLeft"])
-    for i in matches:
-        i = i.text.strip()
-        break
+        with open('nhl_current.csv', mode='a') as current_trends:
+            nhl_writer = csv.writer(current_trends, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            nhl_writer.writerow([team,values[0],values[1],values[2]])
 
 
-def tabulation(values):
-    global teams_nhl
-    headers = ["Teams", "Overall-Record", "Over", "Under"]
-    table = []
-    for i in range(len(teams_nhl)):
-        break
-        #table.append([teams_nhl[i], '0', values[i], values[i])
-
-    print(tabulate(table,headers))
-def perc_totals(values):
-    total_games=values[0] + values [1] + values [2]
-    over = round(values[0]/total_games * 100 ,2 )
-    under = round(values[1]/total_games * 100 , 2)
-    print("Over  % " + str(over))
-    print("Under % " + str(under))
-    print()
 
 def main():
     global teams_nhl
     j = 0
     lista_links =  url_loop()
     for i in lista_links:
-        #j = 1 + j
         values =[]
         soup = format_url(i.strip())
         values= get_totals_teams(soup)
-        print(teams_nhl[j])
-        perc_totals(values)
-        #tabulation(values)
+        csv_writer(values, teams_nhl[j])
 
         j = 1 + j
 

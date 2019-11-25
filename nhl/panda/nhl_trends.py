@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from tabulate import tabulate
 
 teamdb = 55
-teams_nhl = []
+
 def url_loop():
     file = open("links.txt","r")
     links = file.readlines()
@@ -12,10 +12,10 @@ def url_loop():
     return links
 
 def format_url(_url):
-    global teams_nhl
-    #put this in a function!
-    teams_nhl.append( _url[57].upper() + _url[58:])
 
+    #put this in a function!
+    team_name = _url[57].upper() + _url[58:]
+    print(team_name)
     result = requests.get(_url)
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
@@ -59,16 +59,6 @@ def get_last_streaks():
         i = i.text.strip()
         break
 
-
-def tabulation(values):
-    global teams_nhl
-    headers = ["Teams", "Overall-Record", "Over", "Under"]
-    table = []
-    for i in range(len(teams_nhl)):
-        break
-        #table.append([teams_nhl[i], '0', values[i], values[i])
-
-    print(tabulate(table,headers))
 def perc_totals(values):
     total_games=values[0] + values [1] + values [2]
     over = round(values[0]/total_games * 100 ,2 )
@@ -78,19 +68,15 @@ def perc_totals(values):
     print()
 
 def main():
-    global teams_nhl
-    j = 0
+
     lista_links =  url_loop()
     for i in lista_links:
-        #j = 1 + j
         values =[]
         soup = format_url(i.strip())
         values= get_totals_teams(soup)
-        print(teams_nhl[j])
         perc_totals(values)
-        #tabulation(values)
 
-        j = 1 + j
+
 
 
 main()

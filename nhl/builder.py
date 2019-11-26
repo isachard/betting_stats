@@ -7,6 +7,7 @@ import csv
 
 
 teams_nhl = []
+lista = []
 def url_loop():
     file = open("links.txt","r")
     links = file.readlines()
@@ -47,19 +48,20 @@ def get_totals_teams(soup):
 
     return [over,under,push]
 
-def csv_writer(values, team):
-    today = datetime.today()
-    today_number = today.day
+def csv_writer():
+    global lista
+    with open('nhl_current.csv', mode='w') as current_trends:
 
-    reader = csv.reader(f)
-    row1 = next(reader)
-    if (today_number != row1 )
+        nhl_writer = csv.writer(current_trends, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        nhl_writer.writerow(["Teams", "Over", "Under", "Push"])
+        for items in lista :
+            #nhl_writer = csv.writer(current_trends, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            nhl_writer.writerow([items[0],items[1],items[2],items[3]])
 
-        with open('nhl_current.csv', mode='a') as current_trends:
-            nhl_writer = csv.writer(current_trends, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            nhl_writer.writerow([team,values[0],values[1],values[2]])
-
-
+def team_values_to_list(team,values):
+    global lista
+    lista.append([team[-1:], values[0],values[1],values[2]])
+    print(team[-1:])
 
 def main():
     global teams_nhl
@@ -69,9 +71,9 @@ def main():
         values =[]
         soup = format_url(i.strip())
         values= get_totals_teams(soup)
-        csv_writer(values, teams_nhl[j])
+        team_values_to_list(teams_nhl, values)
+    csv_writer()
 
-        j = 1 + j
 
 
 main()

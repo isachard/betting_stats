@@ -50,13 +50,18 @@ def get_totals_teams(soup):
 
 def csv_writer():
     global lista
+
+
+
     with open('nhl_current.csv', mode='w') as current_trends:
 
         nhl_writer = csv.writer(current_trends, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        nhl_writer.writerow(["Teams", "Over", "Under", "Push"])
-        for items in lista :
-            #nhl_writer = csv.writer(current_trends, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            nhl_writer.writerow([items[0],items[1],items[2],items[3]])
+        nhl_writer.writerow(["Teams", "Over", "Under", "Push","Over %", "Under %"])
+        for item in lista :
+            total = item[1] + item[2]
+            over = round((item[1] / total) * 100,1)
+            under = round((item[2] / total) * 100,1)
+            nhl_writer.writerow([item[0],item[1],item[2],item[3],over,under])
 
 def team_values_to_list(team,values):
     global lista

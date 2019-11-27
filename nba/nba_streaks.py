@@ -120,6 +120,22 @@ def populate_win(w):
 def populate_loss(l):
     global lista_loss
     lista_loss[l]+=1
+
+
+def how_many_games_total():
+    global lista_over
+    global lista_under
+    total = 0
+    total_over = 0
+    total_under = 0
+
+    for i in lista_under.values():
+        total_under = i + total_under
+    for i in lista_over.values():
+        total_over = i + total_over
+    total = total_over + total_under
+    return [total, total_over, total_under]
+
 def main():
 
      lista_links =  url_loop()

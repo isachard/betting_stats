@@ -70,7 +70,7 @@ def tabulation(values):
 
     print(tabulate(table,headers))
 def perc_totals(values):
-    total_games=values[0] + values [1] + values [2]
+    total_games=values[0] + values [1] 
     over = round(values[0]/total_games * 100 ,2 )
     under = round(values[1]/total_games * 100 , 2)
     print("Over  % " + str(over))

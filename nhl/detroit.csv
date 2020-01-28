@@ -1,0 +1,83 @@
+Date 	VS 	Score 	ML 	O/U 	Goalie 	Opp. Goalie
+Apr 6 	awayTeamLogo BUF 	L 1-7 	L -116 	O 6 -116 	J. Howard 	L. Ullmark
+Apr 4 	awayTeamLogo @ PIT 	L 1-4 	L +235 	U 6 -121 	J. Howard 	M. Murray
+Apr 2 	awayTeamLogo PIT 	W 4-1 	W +165 	U 6 -124 	J. Howard 	M. Murray
+Mar 31 	awayTeamLogo BOS 	W 6-3 	W +185 	O 5.5 -135 	J. Howard 	J. Halak
+Mar 29 	awayTeamLogo NJ 	W 4-0 	W -110 	U 5.5 100 	J. Bernier 	M. Blackwood
+Mar 28 	awayTeamLogo @ BUF 	W 5-4 (OT) 	W +135 	O 6 100 	J. Howard 	L. Ullmark
+Mar 25 	awayTeamLogo @ SJ 	W 3-2 	W +300 	U 6.5 -134 	J. Bernier 	M. Jones
+Mar 23 	awayTeamLogo @ VEG 	W 3-2 (OT) 	W +315 	U 6 -111 	J. Howard 	M. Subban
+Mar 21 	awayTeamLogo @ STL 	L 2-5 	L +318 	O 5.5 -116 	J. Bernier 	J. Binnington
+Mar 19 	awayTeamLogo @ NYR 	W 3-2 	W +118 	U 5.5 -106 	J. Howard 	H. Lundqvist
+Mar 16 	awayTeamLogo NYI 	W 2-1 	W +205 	U 5.5 -108 	J. Bernier 	T. Greiss
+Mar 14 	awayTeamLogo TB 	L 4-5 	L +305 	O 6.5 -105 	J. Howard 	A. Vasilevskiy
+Mar 12 	awayTeamLogo @ MON 	L 1-3 	L +290 	U 5.5 107 	J. Bernier 	C. Price
+Mar 10 	awayTeamLogo @ FLA 	L 1-6 	L +185 	O 6 -138 	J. Howard 	S. Montembeault
+Mar 9 	awayTeamLogo @ TB 	L 2-3 	L +350 	U 6.5 -105 	J. Bernier 	L. Domingue
+Mar 7 	awayTeamLogo NYR 	W 3-2 (SO) 	W -105 	U 5.5 104 	J. Howard 	H. Lundqvist
+Mar 5 	awayTeamLogo @ COL 	L 3-4 (OT) 	L +205 	O 6.5 -111 	J. Bernier 	S. Varlamov
+Mar 2 	awayTeamLogo @ ARI 	L 1-3 	L +166 	U 5.5 -110 	J. Howard 	D. Kuemper
+Feb 26 	awayTeamLogo MON 	L 1-8 	L +110 	O 6 -105 	J. Howard 	C. Price
+Feb 24 	awayTeamLogo SJ 	L 3-5 	L +160 	O 6.5 -120 	J. Bernier 	A. Dell
+Feb 22 	awayTeamLogo MIN 	L 2-3 	L -107 	U 5.5 -108 	J. Bernier 	D. Dubnyk
+Feb 20 	awayTeamLogo CHI 	L 4-5 (OT) 	L -122 	O 6.5 -115 	J. Bernier 	C. Ward
+Feb 17 	awayTeamLogo PHI 	L 1-3 	L +120 	U 6 -105 	J. Howard 	C. Hart
+Feb 16 	awayTeamLogo @ PHI 	L 5-6 (OT) 	L +165 	O 6 -111 	J. Bernier 	C. Hart
+Feb 14 	awayTeamLogo OTT 	W 3-2 	W -136 	U 6 -108 	J. Howard 	A. Nilsson
+Feb 12 	awayTeamLogo @ NAS 	W 3-2 	W +190 	U 5.5 104 	J. Howard 	P. Rinne
+Feb 10 	awayTeamLogo @ CHI 	L 2-5 	L +128 	O 6.5 -117 	J. Bernier 	C. Ward
+Feb 9 	awayTeamLogo @ BUF 	L 1-3 	L +129 	U 6 -121 	J. Howard 	L. Ullmark
+Feb 7 	awayTeamLogo VEG 	L 3-4 	L +145 	O 5.5 -127 	J. Howard 	M. Fleury
+Feb 2 	awayTeamLogo @ OTT 	W 2-0 	W +110 	U 6 100 	J. Bernier 	C. Anderson
+Feb 1 	awayTeamLogo TOR 	W 3-2 (OT) 	W +165 	U 6.5 -141 	J. Howard 	F. Andersen
+Jan 22 	awayTeamLogo @ EDM 	W 3-2 	W +120 	U 6 -122 	J. Howard 	M. Koskinen
+Jan 20 	awayTeamLogo @ VAN 	L 2-3 	L +135 	U 6 -118 	J. Bernier 	J. Markstrom
+Jan 18 	awayTeamLogo @ CAL 	L 4-6 	L +205 	O 6.5 -111 	J. Howard 	M. Smith
+Jan 15 	awayTeamLogo ANA 	W 3-1 	W +100 	U 5.5 -117 	J. Howard 	J. Gibson
+Jan 12 	awayTeamLogo @ MIN 	W 5-2 	W +210 	O 5.5 -122 	J. Howard 	D. Dubnyk
+Jan 11 	awayTeamLogo @ WIN 	L 2-4 	L +180 	U 6.5 -111 	J. Bernier 	L. Brossoit
+Jan 8 	awayTeamLogo MON 	L 2-3 	L -106 	U 6 -116 	J. Howard 	A. Niemi
+Jan 6 	awayTeamLogo WAS 	L 2-3 	L +140 	U 6 -121 	J. Howard 	B. Holtby
+Jan 4 	awayTeamLogo NAS 	W 4-3 (OT) 	W +160 	O 5.5 -113 	J. Howard 	P. Rinne
+Jan 2 	awayTeamLogo CAL 	L 3-5 	L +160 	O 6 -119 	J. Howard 	M. Smith
+Dec 31 	awayTeamLogo FLA 	L 3-4 (SO) 	L +113 	O 6 -124 	J. Howard 	J. Reimer
+Dec 29 	awayTeamLogo @ DAL 	L 1-5 	L +190 	O 5.5 -112 	J. Bernier 	B. Bishop
+Dec 27 	awayTeamLogo @ PIT 	L 2-5 	L +225 	O 6 -113 	J. Howard 	M. Murray
+Dec 23 	awayTeamLogo @ TOR 	L 4-5 (OT) 	L +240 	O 6.5 107 	J. Bernier 	G. Sparks
+Dec 22 	awayTeamLogo FLA 	L 1-2 	L +125 	U 6 -124 	J. Howard 	R. Luongo
+Dec 20 	awayTeamLogo @ CAR 	W 4-1 	W +205 	U 6 -116 	J. Bernier 	P. Mrazek
+Dec 18 	awayTeamLogo @ PHI 	L 2-3 	L +165 	U 6.5 -120 	J. Bernier 	C. Hart
+Dec 15 	awayTeamLogo @ NYI 	L 3-4 (SO) 	L +155 	O 6 101 	J. Bernier 	T. Greiss
+Dec 14 	awayTeamLogo OTT 	L 2-4 	L -147 	P 6 	J. Howard 	C. Anderson
+Dec 11 	awayTeamLogo @ WAS 	L 2-6 	L +230 	O 6 -121 	J. Bernier 	B. Holtby
+Dec 10 	awayTeamLogo LA 	W 3-1 	W -120 	U 5.5 -129 	J. Howard 	J. Quick
+Dec 8 	awayTeamLogo NYI 	L 2-3 	L +105 	U 6 -124 	J. Bernier 	T. Greiss
+Dec 6 	awayTeamLogo @ TOR 	W 5-4 (OT) 	W +265 	O 6.5 -105 	J. Bernier 	G. Sparks
+Dec 4 	awayTeamLogo TB 	L 5-6 (SO) 	L +160 	O 6 -106 	J. Howard 	E. Pasquale
+Dec 2 	awayTeamLogo COL 	L 0-2 	L +145 	U 6 -125 	J. Bernier 	S. Varlamov
+Dec 1 	awayTeamLogo @ BOS 	W 4-2 	W +180 	O 5.5 -110 	J. Howard 	T. Rask
+Nov 28 	awayTeamLogo STL 	W 4-3 	W +110 	O 5.5 -124 	J. Howard 	J. Allen
+Nov 26 	awayTeamLogo CLB 	L 5-7 	L +140 	O 5.5 -124 	J. Bernier 	S. Bobrovsky
+Nov 24 	awayTeamLogo BUF 	L 2-3 (SO) 	L -105 	U 5.5 -115 	J. Howard 	L. Ullmark
+Nov 23 	awayTeamLogo @ WAS 	L 1-3 	L +175 	U 5.5 106 	J. Bernier 	B. Holtby
+Nov 21 	awayTeamLogo BOS 	W 3-2 (OT) 	W +106 	U 5.5 -114 	J. Howard 	T. Rask
+Nov 17 	awayTeamLogo @ NJ 	W 3-2 (OT) 	W +149 	U 6 -111 	J. Bernier 	K. Kinkaid
+Nov 15 	awayTeamLogo @ OTT 	L 1-2 	L +111 	U 6 -114 	J. Howard 	C. Anderson
+Nov 13 	awayTeamLogo ARI 	W 6-1 	W -105 	O 5.5 -116 	J. Howard 	D. Kuemper
+Nov 10 	awayTeamLogo @ CAR 	W 4-3 (SO) 	W +210 	O 6 -105 	J. Bernier 	S. Darling
+Nov 9 	awayTeamLogo NYR 	W 3-2 (OT) 	W -125 	U 5.5 108 	J. Howard 	H. Lundqvist
+Nov 6 	awayTeamLogo VAN 	W 3-2 (SO) 	W -130 	U 5.5 108 	J. Howard 	J. Markstrom
+Nov 3 	awayTeamLogo EDM 	L 3-4 	L +125 	O 6 100 	J. Bernier 	M. Koskinen
+Nov 1 	awayTeamLogo NJ 	W 4-3 	W +125 	O 6 105 	J. Howard 	C. Schneider
+Oct 30 	awayTeamLogo @ CLB 	W 5-3 	W +188 	O 6 -108 	J. Howard 	S. Bobrovsky
+Oct 28 	awayTeamLogo DAL 	W 4-2 	W +140 	P 6 	J. Bernier 	B. Bishop
+Oct 26 	awayTeamLogo WIN 	L 1-2 	L +140 	U 6 -132 	J. Howard 	L. Brossoit
+Oct 22 	awayTeamLogo CAR 	L 1-3 	L +130 	U 6 -124 	J. Howard 	P. Mrazek
+Oct 20 	awayTeamLogo @ FLA 	W 4-3 (OT) 	W +170 	O 6.5 115 	J. Howard 	M. Hutchinson
+Oct 18 	awayTeamLogo @ TB 	L 1-3 	L +240 	U 6 100 	J. Howard 	A. Vasilevskiy
+Oct 15 	awayTeamLogo @ MON 	L 3-7 	L +135 	O 6 100 	J. Howard 	A. Niemi
+Oct 13 	awayTeamLogo @ BOS 	L 2-8 	L +220 	O 6 100 	J. Bernier 	T. Rask
+Oct 11 	awayTeamLogo TOR 	L 3-5 	L +150 	O 6.5 105 	J. Howard 	F. Andersen
+Oct 8 	awayTeamLogo @ ANA 	L 2-3 (SO) 	L +163 	U 5.5 -130 	J. Howard 	J. Gibson
+Oct 7 	awayTeamLogo @ LA 	L 2-4 	L +170 	O 5.5 110 	J. Bernier 	J. Campbell
+Oct 4 	awayTeamLogo CLB 	L 2-3 (OT) 	L +115 	U 5.5 100 	J. Howard 	J. Korpisalo

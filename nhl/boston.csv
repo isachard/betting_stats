@@ -1,0 +1,83 @@
+Date 	VS 	Score 	ML 	O/U 	Goalie 	Opp. Goalie
+Apr 6 	awayTeamLogo TB 	L 3-6 	L -120 	O 6.5 105 	T. Rask 	E. Pasquale
+Apr 4 	awayTeamLogo @ MIN 	W 3-0 	W +110 	U 5.5 -114 	J. Halak 	A. Stalock
+Apr 2 	awayTeamLogo @ CLB 	W 6-2 	W +115 	O 5.5 -129 	T. Rask 	S. Bobrovsky
+Mar 31 	awayTeamLogo @ DET 	L 3-6 	L -225 	O 5.5 -135 	J. Halak 	J. Howard
+Mar 30 	awayTeamLogo FLA 	L 1-4 	L -244 	U 6.5 -132 	T. Rask 	R. Luongo
+Mar 27 	awayTeamLogo NYR 	W 6-3 	W -357 	O 6 -103 	J. Halak 	H. Lundqvist
+Mar 25 	awayTeamLogo @ TB 	L 4-5 	L +135 	O 6 -113 	T. Rask 	A. Vasilevskiy
+Mar 23 	awayTeamLogo @ FLA 	W 7-3 	W -147 	O 6 -103 	J. Halak 	S. Montembeault
+Mar 21 	awayTeamLogo @ NJ 	W 5-1 	W -325 	O 5.5 -125 	T. Rask 	C. Schneider
+Mar 19 	awayTeamLogo @ NYI 	W 5-0 	W -116 	U 5.5 -139 	T. Rask 	R. Lehner
+Mar 16 	awayTeamLogo CLB 	W 2-1 (OT) 	W -175 	U 6 -109 	J. Halak 	J. Korpisalo
+Mar 14 	awayTeamLogo @ WIN 	L 3-4 	L +109 	O 6 -125 	T. Rask 	C. Hellebuyck
+Mar 12 	awayTeamLogo @ CLB 	L 4-7 	L -116 	O 6 125 	T. Rask 	S. Bobrovsky
+Mar 10 	awayTeamLogo @ PIT 	L 2-4 	L +100 	U 6.5 -120 	J. Halak 	M. Murray
+Mar 9 	awayTeamLogo OTT 	W 3-2 	W -455 	U 6 120 	T. Rask 	C. Anderson
+Mar 7 	awayTeamLogo FLA 	W 4-3 	W -222 	O 6 -111 	T. Rask 	R. Luongo
+Mar 5 	awayTeamLogo CAR 	W 4-3 (OT) 	W -132 	O 5.5 -105 	J. Halak 	C. McElhinney
+Mar 2 	awayTeamLogo NJ 	W 1-0 	W -357 	U 6 -125 	T. Rask 	M. Blackwood
+Feb 28 	awayTeamLogo TB 	W 4-1 	W -125 	U 6.5 103 	T. Rask 	L. Domingue
+Feb 26 	awayTeamLogo SJ 	W 4-1 	W -105 	U 6.5 -105 	J. Halak 	M. Jones
+Feb 23 	awayTeamLogo @ STL 	L 1-2 (SO) 	L +114 	U 5.5 -134 	T. Rask 	J. Binnington
+Feb 20 	awayTeamLogo @ VEG 	W 3-2 (SO) 	W +122 	U 5.5 -110 	J. Halak 	M. Fleury
+Feb 18 	awayTeamLogo @ SJ 	W 6-5 (OT) 	W +127 	O 6 100 	T. Rask 	M. Jones
+Feb 16 	awayTeamLogo @ LA 	W 4-2 	W -135 	O 5.5 104 	T. Rask 	J. Campbell
+Feb 15 	awayTeamLogo @ ANA 	W 3-0 	W -195 	U 5.5 -132 	J. Halak 	K. Boyle
+Feb 12 	awayTeamLogo CHI 	W 6-3 	W -195 	O 6.5 115 	T. Rask 	C. Delia
+Feb 10 	awayTeamLogo COL 	W 2-1 (OT) 	W -200 	U 6 -105 	J. Halak 	S. Varlamov
+Feb 9 	awayTeamLogo LA 	W 5-4 (OT) 	W -250 	O 5.5 110 	T. Rask 	J. Quick
+Feb 6 	awayTeamLogo @ NYR 	L 3-4 (SO) 	L -156 	O 6 100 	J. Halak 	A. Georgiev
+Feb 5 	awayTeamLogo NYI 	W 3-1 	W -164 	U 5.5 -120 	T. Rask 	R. Lehner
+Feb 3 	awayTeamLogo @ WAS 	W 1-0 	W -105 	U 6 -105 	T. Rask 	B. Holtby
+Jan 31 	awayTeamLogo PHI 	L 2-3 (OT) 	L -213 	U 6 -105 	T. Rask 	C. Hart
+Jan 29 	awayTeamLogo WIN 	L 3-4 (SO) 	L -150 	O 6 107 	J. Halak 	C. Hellebuyck
+Jan 19 	awayTeamLogo NYR 	L 2-3 	L -263 	U 6 -112 	J. Halak 	H. Lundqvist
+Jan 17 	awayTeamLogo STL 	W 5-2 	W -160 	O 5.5 -103 	T. Rask 	J. Allen
+Jan 16 	awayTeamLogo @ PHI 	L 3-4 	L -156 	O 6 100 	J. Halak 	C. Hart
+Jan 14 	awayTeamLogo MON 	L 2-3 (OT) 	L -185 	U 5.5 102 	T. Rask 	C. Price
+Jan 12 	awayTeamLogo @ TOR 	W 3-2 	W +110 	U 6.5 100 	T. Rask 	M. Hutchinson
+Jan 10 	awayTeamLogo WAS 	L 2-4 	L -140 	P 6 	J. Halak 	B. Holtby
+Jan 8 	awayTeamLogo MIN 	W 4-0 	W -185 	U 5.5 107 	T. Rask 	A. Stalock
+Jan 5 	awayTeamLogo BUF 	W 2-1 	W -222 	U 5.5 -109 	T. Rask 	L. Ullmark
+Jan 3 	awayTeamLogo CAL 	W 6-4 	W -159 	O 6 -116 	J. Halak 	M. Smith
+Jan 1 	awayTeamLogo @ CHI 	W 4-2 	W -160 	P 6 	T. Rask 	C. Ward
+Dec 29 	awayTeamLogo @ BUF 	W 3-2 (OT) 	W -115 	U 5.5 104 	T. Rask 	C. Hutton
+Dec 27 	awayTeamLogo NJ 	L 2-5 	L -233 	O 6 -111 	J. Halak 	M. Blackwood
+Dec 23 	awayTeamLogo @ CAR 	L 3-5 	L -132 	O 5.5 -118 	T. Rask 	P. Mrazek
+Dec 22 	awayTeamLogo NAS 	W 5-2 	W -143 	O 5.5 100 	J. Halak 	P. Rinne
+Dec 20 	awayTeamLogo ANA 	W 3-1 	W -156 	U 5.5 -110 	J. Halak 	J. Gibson
+Dec 17 	awayTeamLogo @ MON 	W 4-0 	W +127 	U 5.5 113 	J. Halak 	C. Price
+Dec 16 	awayTeamLogo BUF 	L 2-4 	L -185 	O 5.5 -115 	T. Rask 	L. Ullmark
+Dec 14 	awayTeamLogo @ PIT 	L 3-5 	L +130 	O 6 -105 	J. Halak 	C. DeSmith
+Dec 11 	awayTeamLogo ARI 	W 4-3 	W -180 	O 5.5 105 	T. Rask 	D. Kuemper
+Dec 9 	awayTeamLogo @ OTT 	W 2-1 (OT) 	W -161 	U 6.5 106 	T. Rask 	M. McKenna
+Dec 8 	awayTeamLogo TOR 	W 6-3 	W +115 	O 6 -105 	J. Halak 	F. Andersen
+Dec 6 	awayTeamLogo @ TB 	L 2-3 	L +145 	U 6 -121 	T. Rask 	L. Domingue
+Dec 4 	awayTeamLogo @ FLA 	L 0-5 	L +107 	U 5.5 102 	J. Halak 	R. Luongo
+Dec 1 	awayTeamLogo DET 	L 2-4 	L -225 	O 5.5 -110 	T. Rask 	J. Howard
+Nov 29 	awayTeamLogo NYI 	W 2-1 (SO) 	W -164 	U 5.5 -103 	T. Rask 	R. Lehner
+Nov 26 	awayTeamLogo @ TOR 	L 2-4 	L +138 	O 5.5 -125 	J. Halak 	F. Andersen
+Nov 24 	awayTeamLogo @ MON 	W 3-2 	W -121 	U 5.5 -112 	T. Rask 	C. Price
+Nov 23 	awayTeamLogo PIT 	W 2-1 (OT) 	W +100 	U 6 -122 	J. Halak 	T. Jarry
+Nov 21 	awayTeamLogo @ DET 	L 2-3 (OT) 	L -127 	U 5.5 -114 	T. Rask 	J. Howard
+Nov 17 	awayTeamLogo @ ARI 	W 2-1 	W -104 	U 5.5 -106 	J. Halak 	D. Kuemper
+Nov 16 	awayTeamLogo @ DAL 	L 0-1 (OT) 	L +104 	U 5.5 105 	T. Rask 	B. Bishop
+Nov 14 	awayTeamLogo @ COL 	L 3-6 	L +100 	O 6 105 	J. Halak 	S. Varlamov
+Nov 11 	awayTeamLogo VEG 	W 4-1 	W -172 	U 5.5 100 	J. Halak 	M. Subban
+Nov 10 	awayTeamLogo TOR 	W 5-1 	W -145 	P 6 	J. Halak 	G. Sparks
+Nov 8 	awayTeamLogo VAN 	L 5-8 	L -270 	O 5.5 100 	T. Rask 	J. Markstrom
+Nov 5 	awayTeamLogo DAL 	W 2-1 (OT) 	W -161 	U 5.5 -112 	T. Rask 	A. Khudobin
+Nov 3 	awayTeamLogo @ NAS 	L 0-1 	L +131 	U 5.5 -114 	J. Halak 	P. Rinne
+Oct 30 	awayTeamLogo @ CAR 	W 3-2 	W +120 	U 6 -120 	J. Halak 	S. Darling
+Oct 27 	awayTeamLogo MON 	L 0-3 	L -182 	U 5.5 -116 	T. Rask 	C. Price
+Oct 25 	awayTeamLogo PHI 	W 3-0 	W -161 	U 6 -132 	J. Halak 	B. Elliott
+Oct 23 	awayTeamLogo @ OTT 	W 4-1 	W -170 	U 6 -137 	T. Rask 	C. Anderson
+Oct 20 	awayTeamLogo @ VAN 	L 1-2 (OT) 	L -155 	U 6 -120 	J. Halak 	J. Markstrom
+Oct 18 	awayTeamLogo @ EDM 	L 2-3 (OT) 	L -125 	U 6 -105 	J. Halak 	C. Talbot
+Oct 17 	awayTeamLogo @ CAL 	L 2-5 	L -110 	O 6 -105 	T. Rask 	M. Smith
+Oct 13 	awayTeamLogo DET 	W 8-2 	W -260 	O 6 100 	T. Rask 	J. Bernier
+Oct 11 	awayTeamLogo EDM 	W 4-1 	W -170 	U 6 -110 	J. Halak 	C. Talbot
+Oct 8 	awayTeamLogo OTT 	W 6-3 	W -270 	O 6 -110 	T. Rask 	M. Condon
+Oct 4 	awayTeamLogo @ BUF 	W 4-0 	W -135 	U 6 -130 	J. Halak 	C. Hutton
+Oct 3 	awayTeamLogo @ WAS 	L 0-7 	L -105 	O 5.5 -120 	T. Rask 	B. Holtby

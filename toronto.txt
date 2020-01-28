@@ -1,0 +1,82 @@
+Apr 6 	awayTeamLogo @ MON 	L 5-6 (SO) 	L +100 	O 6.5 -111 	F. Andersen 	C. Lindgren
+Apr 4 	awayTeamLogo TB 	L 1-3 	L -105 	U 7 -125 	F. Andersen 	A. Vasilevskiy
+Apr 2 	awayTeamLogo CAR 	L 1-4 	L +105 	U 6.5 -111 	G. Sparks 	P. Mrazek
+Apr 1 	awayTeamLogo @ NYI 	W 2-1 	W -105 	U 6 -116 	F. Andersen 	R. Lehner
+Mar 30 	awayTeamLogo @ OTT 	L 2-4 	L -227 	U 7 -141 	G. Sparks 	C. Anderson
+Mar 27 	awayTeamLogo @ PHI 	L 4-5 (SO) 	L -152 	O 7 110 	F. Andersen 	C. Hart
+Mar 25 	awayTeamLogo FLA 	W 7-5 	W -213 	O 6.5 112 	F. Andersen 	R. Luongo
+Mar 23 	awayTeamLogo NYR 	L 1-2 (OT) 	L -370 	U 6.5 -134 	F. Andersen 	A. Georgiev
+Mar 20 	awayTeamLogo @ BUF 	W 4-2 	W -138 	U 6.5 -124 	G. Sparks 	C. Hutton
+Mar 19 	awayTeamLogo @ NAS 	L 0-3 	L +105 	U 6.5 -105 	F. Andersen 	P. Rinne
+Mar 16 	awayTeamLogo @ OTT 	L 2-6 	L -270 	O 6.5 -105 	G. Sparks 	A. Nilsson
+Mar 15 	awayTeamLogo PHI 	W 7-6 	W -216 	O 6.5 -155 	F. Andersen 	B. Elliott
+Mar 13 	awayTeamLogo CHI 	L 4-5 	L -240 	O 7 -141 	G. Sparks 	C. Crawford
+Mar 11 	awayTeamLogo TB 	L 2-6 	L -115 	O 6.5 -152 	F. Andersen 	A. Vasilevskiy
+Mar 9 	awayTeamLogo @ EDM 	W 3-2 	W -160 	U 6.5 130 	F. Andersen 	A. Stolarz
+Mar 6 	awayTeamLogo @ VAN 	L 2-3 (OT) 	L -213 	U 6.5 100 	F. Andersen 	J. Markstrom
+Mar 4 	awayTeamLogo @ CAL 	W 6-2 	W +120 	O 6.5 104 	F. Andersen 	D. Rittich
+Mar 2 	awayTeamLogo BUF 	W 5-2 	W -270 	O 6.5 -125 	F. Andersen 	L. Ullmark
+Feb 28 	awayTeamLogo @ NYI 	L 1-6 	L -105 	O 5.5 -125 	G. Sparks 	R. Lehner
+Feb 27 	awayTeamLogo EDM 	W 6-2 	W -240 	O 6.5 108 	F. Andersen 	M. Koskinen
+Feb 25 	awayTeamLogo BUF 	W 5-3 	W -263 	O 6.5 114 	F. Andersen 	L. Ullmark
+Feb 23 	awayTeamLogo MON 	W 6-3 	W -189 	O 6 -104 	F. Andersen 	C. Price
+Feb 21 	awayTeamLogo WAS 	L 2-3 	L -170 	U 6.5 -118 	F. Andersen 	B. Holtby
+Feb 19 	awayTeamLogo @ STL 	L 2-3 (OT) 	L +102 	U 6 -105 	F. Andersen 	J. Binnington
+Feb 16 	awayTeamLogo @ ARI 	L 0-2 	L -179 	U 6 -109 	F. Andersen 	D. Kuemper
+Feb 14 	awayTeamLogo @ VEG 	W 6-3 	W -109 	O 6.5 -111 	F. Andersen 	M. Fleury
+Feb 12 	awayTeamLogo @ COL 	W 5-2 	W -141 	O 6.5 102 	F. Andersen 	S. Varlamov
+Feb 10 	awayTeamLogo @ NYR 	L 1-4 	L -149 	U 6.5 100 	G. Sparks 	A. Georgiev
+Feb 9 	awayTeamLogo @ MON 	W 4-3 (OT) 	W -130 	O 6.5 100 	F. Andersen 	C. Price
+Feb 6 	awayTeamLogo OTT 	W 5-4 	W -330 	O 6.5 -104 	F. Andersen 	C. Anderson
+Feb 4 	awayTeamLogo ANA 	W 6-1 	W -270 	O 6 100 	F. Andersen 	J. Gibson
+Feb 2 	awayTeamLogo PIT 	W 3-2 	W -141 	U 6.5 -117 	G. Sparks 	M. Murray
+Feb 1 	awayTeamLogo @ DET 	L 2-3 (OT) 	L -200 	U 6.5 -141 	F. Andersen 	J. Howard
+Jan 23 	awayTeamLogo WAS 	W 6-3 	W -190 	O 6.5 -115 	F. Andersen 	B. Holtby
+Jan 20 	awayTeamLogo ARI 	L 2-4 	L -278 	P 6 	F. Andersen 	D. Kuemper
+Jan 18 	awayTeamLogo @ FLA 	L 1-3 	L -135 	U 6.5 -125 	G. Sparks 	R. Luongo
+Jan 17 	awayTeamLogo @ TB 	W 4-2 	W +125 	U 6.5 -112 	F. Andersen 	A. Vasilevskiy
+Jan 14 	awayTeamLogo COL 	L 3-6 	L -185 	O 6.5 -121 	F. Andersen 	S. Varlamov
+Jan 12 	awayTeamLogo BOS 	L 2-3 	L -130 	U 6.5 100 	M. Hutchinson 	T. Rask
+Jan 10 	awayTeamLogo @ NJ 	W 4-2 	W -160 	U 6.5 -105 	M. Hutchinson 	K. Kinkaid
+Jan 7 	awayTeamLogo NAS 	L 0-4 	L -130 	U 6 -103 	M. Hutchinson 	P. Rinne
+Jan 5 	awayTeamLogo VAN 	W 5-0 	W -278 	U 6.5 -141 	M. Hutchinson 	J. Markstrom
+Jan 3 	awayTeamLogo MIN 	L 3-4 	L -164 	O 6.5 -116 	M. Hutchinson 	D. Dubnyk
+Dec 29 	awayTeamLogo NYI 	L 0-4 	L -222 	U 6.5 -134 	G. Sparks 	R. Lehner
+Dec 28 	awayTeamLogo @ CLB 	W 4-2 	W -116 	U 6.5 -137 	G. Sparks 	S. Bobrovsky
+Dec 23 	awayTeamLogo DET 	W 5-4 (OT) 	W -303 	O 6.5 107 	G. Sparks 	J. Bernier
+Dec 22 	awayTeamLogo NYR 	W 5-3 	W -286 	O 6.5 106 	F. Andersen 	A. Georgiev
+Dec 20 	awayTeamLogo FLA 	W 6-1 	W -227 	O 6.5 102 	F. Andersen 	R. Luongo
+Dec 18 	awayTeamLogo @ NJ 	W 7-2 	W -152 	O 6.5 108 	F. Andersen 	K. Kinkaid
+Dec 15 	awayTeamLogo @ FLA 	L 3-4 (OT) 	L -165 	O 6.5 -122 	F. Andersen 	R. Luongo
+Dec 13 	awayTeamLogo @ TB 	L 1-4 	L +120 	U 6.5 -127 	F. Andersen 	A. Vasilevskiy
+Dec 11 	awayTeamLogo @ CAR 	W 4-1 	W -132 	U 6 -112 	F. Andersen 	P. Mrazek
+Dec 8 	awayTeamLogo @ BOS 	L 3-6 	L -135 	O 6 -105 	F. Andersen 	J. Halak
+Dec 6 	awayTeamLogo DET 	L 4-5 (OT) 	L -333 	O 6.5 -105 	G. Sparks 	J. Bernier
+Dec 4 	awayTeamLogo @ BUF 	W 4-3 (OT) 	W -163 	O 6 -117 	F. Andersen 	L. Ullmark
+Dec 1 	awayTeamLogo @ MIN 	W 5-3 	W +105 	O 6 -110 	F. Andersen 	D. Dubnyk
+Nov 28 	awayTeamLogo SJ 	W 5-3 	W -172 	O 6 -117 	F. Andersen 	A. Dell
+Nov 26 	awayTeamLogo BOS 	W 4-2 	W -159 	O 5.5 -125 	F. Andersen 	J. Halak
+Nov 24 	awayTeamLogo PHI 	W 6-0 	W -141 	U 6.5 -111 	G. Sparks 	C. Pickard
+Nov 23 	awayTeamLogo @ CLB 	L 2-4 	L +118 	P 6 	F. Andersen 	S. Bobrovsky
+Nov 21 	awayTeamLogo @ CAR 	L 2-5 	L -116 	O 6 -111 	F. Andersen 	C. McElhinney
+Nov 19 	awayTeamLogo CLB 	W 4-2 	W -141 	P 6 	F. Andersen 	S. Bobrovsky
+Nov 16 	awayTeamLogo @ ANA 	W 2-1 (OT) 	W -125 	U 5.5 -112 	G. Sparks 	J. Gibson
+Nov 15 	awayTeamLogo @ SJ 	W 5-3 	W +120 	O 6 114 	F. Andersen 	M. Jones
+Nov 13 	awayTeamLogo @ LA 	W 5-1 	W -125 	O 5.5 -116 	F. Andersen 	P. Budaj
+Nov 10 	awayTeamLogo @ BOS 	L 1-5 	L +131 	P 6 	G. Sparks 	J. Halak
+Nov 9 	awayTeamLogo NJ 	W 6-1 	W -154 	O 6 102 	F. Andersen 	K. Kinkaid
+Nov 6 	awayTeamLogo VEG 	W 3-1 	W -135 	U 5.5 100 	F. Andersen 	M. Fleury
+Nov 3 	awayTeamLogo @ PIT 	W 5-0 	W +120 	U 6.5 100 	F. Andersen 	M. Murray
+Nov 1 	awayTeamLogo DAL 	L 1-2 	L -151 	U 6 -122 	F. Andersen 	A. Khudobin
+Oct 29 	awayTeamLogo CAL 	L 1-3 	L -155 	U 6 100 	F. Andersen 	M. Smith
+Oct 27 	awayTeamLogo WIN 	W 3-2 	W -147 	U 6.5 -120 	F. Andersen 	C. Hellebuyck
+Oct 24 	awayTeamLogo @ WIN 	W 4-2 	W +118 	U 6.5 100 	F. Andersen 	C. Hellebuyck
+Oct 20 	awayTeamLogo STL 	L 1-4 	L -165 	U 6 100 	F. Andersen 	J. Allen
+Oct 18 	awayTeamLogo PIT 	L 0-3 	L -150 	U 6.5 110 	F. Andersen 	M. Murray
+Oct 15 	awayTeamLogo LA 	W 4-1 	W -175 	U 6 100 	G. Sparks 	J. Campbell
+Oct 13 	awayTeamLogo @ WAS 	W 4-2 	W -105 	U 6.5 110 	F. Andersen 	B. Holtby
+Oct 11 	awayTeamLogo @ DET 	W 5-3 	W -170 	O 6.5 105 	F. Andersen 	J. Howard
+Oct 9 	awayTeamLogo @ DAL 	W 7-4 	W +105 	O 6.5 100 	F. Andersen 	B. Bishop
+Oct 7 	awayTeamLogo @ CHI 	W 7-6 (OT) 	W -140 	O 6.5 -105 	G. Sparks 	C. Ward
+Oct 6 	awayTeamLogo OTT 	L 3-5 	L -290 	O 6 -115 	F. Andersen 	C. Anderson
+Oct 3 	awayTeamLogo MON 	W 3-2 (OT) 	W -240 	U 6 100 	F. Andersen 	C. Price
